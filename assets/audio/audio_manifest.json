@@ -1,0 +1,158 @@
+{
+ "formats": [
+  "ogg",
+  "mp3"
+ ],
+ "sounds": {
+  "bgm_reef_loop": {
+   "file": "bgm_reef_loop",
+   "bus": "music",
+   "volume": 0.42,
+   "loop": true
+  },
+  "bgm_boss_loop": {
+   "file": "bgm_boss_loop",
+   "bus": "music",
+   "volume": 0.45,
+   "loop": true
+  },
+  "bgm_bonus_loop": {
+   "file": "bgm_bonus_loop",
+   "bus": "music",
+   "volume": 0.42,
+   "loop": true
+  },
+  "sfx_fire": {
+   "file": "sfx_fire",
+   "bus": "sfx",
+   "volume": 0.35,
+   "loop": false
+  },
+  "sfx_hit_net": {
+   "file": "sfx_hit_net",
+   "bus": "sfx",
+   "volume": 0.35,
+   "loop": false
+  },
+  "sfx_coin": {
+   "file": "sfx_coin",
+   "bus": "sfx",
+   "volume": 0.5,
+   "loop": false
+  },
+  "sfx_coin_land": {
+   "file": "sfx_coin_land",
+   "bus": "sfx",
+   "volume": 0.4,
+   "loop": false
+  },
+  "sfx_capture_small": {
+   "file": "sfx_capture_small",
+   "bus": "sfx",
+   "volume": 0.6,
+   "loop": false
+  },
+  "sfx_capture_big": {
+   "file": "sfx_capture_big",
+   "bus": "sfx",
+   "volume": 0.8,
+   "loop": false
+  },
+  "sfx_surge_whoosh": {
+   "file": "sfx_surge_whoosh",
+   "bus": "sfx",
+   "volume": 1.0,
+   "loop": false
+  },
+  "sfx_boss_banner": {
+   "file": "sfx_boss_banner",
+   "bus": "sfx",
+   "volume": 0.9,
+   "loop": false
+  },
+  "sfx_bigwin_fanfare": {
+   "file": "sfx_bigwin_fanfare",
+   "bus": "sfx",
+   "volume": 0.85,
+   "loop": false
+  },
+  "sfx_megawin_fanfare": {
+   "file": "sfx_megawin_fanfare",
+   "bus": "sfx",
+   "volume": 0.9,
+   "loop": false
+  },
+  "sfx_countup_end": {
+   "file": "sfx_countup_end",
+   "bus": "sfx",
+   "volume": 0.7,
+   "loop": false
+  },
+  "sfx_vortex": {
+   "file": "sfx_vortex",
+   "bus": "sfx",
+   "volume": 0.8,
+   "loop": false
+  },
+  "sfx_thunder": {
+   "file": "sfx_thunder",
+   "bus": "sfx",
+   "volume": 0.8,
+   "loop": false
+  },
+  "sfx_drill": {
+   "file": "sfx_drill",
+   "bus": "sfx",
+   "volume": 0.7,
+   "loop": false
+  },
+  "sfx_explode": {
+   "file": "sfx_explode",
+   "bus": "sfx",
+   "volume": 0.9,
+   "loop": false
+  },
+  "sfx_gatling": {
+   "file": "sfx_gatling",
+   "bus": "sfx",
+   "volume": 0.7,
+   "loop": false
+  },
+  "sfx_wheel_tick": {
+   "file": "sfx_wheel_tick",
+   "bus": "sfx",
+   "volume": 0.5,
+   "loop": false
+  },
+  "sfx_bottle_pop": {
+   "file": "sfx_bottle_pop",
+   "bus": "sfx",
+   "volume": 0.8,
+   "loop": false
+  },
+  "sfx_pearl": {
+   "file": "sfx_pearl",
+   "bus": "sfx",
+   "volume": 0.7,
+   "loop": false
+  },
+  "sfx_button": {
+   "file": "sfx_button",
+   "bus": "sfx",
+   "volume": 0.5,
+   "loop": false
+  },
+  "sfx_riser": {
+   "file": "sfx_riser",
+   "bus": "sfx",
+   "volume": 0.7,
+   "loop": false
+  },
+  "sfx_riser_short": {
+   "file": "sfx_riser_short",
+   "bus": "sfx",
+   "volume": 0.6,
+   "loop": false
+  }
+ }
+}

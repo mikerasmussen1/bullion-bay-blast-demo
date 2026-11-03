@@ -1,0 +1,51 @@
+{
+ "title": "Bullion Bay Blast",
+ "demo": true,
+ "startBalance": 100000,
+ "rtpTarget": 0.965,
+ "rtpSplit": { "normal": 0.80, "special": 0.09, "pearlCascade": 0.035, "picks": 0.02, "crit": 0.01, "boss": 0.01 },
+ "rooms": [
+  { "id": "shallows", "name": "Shallows", "bets": [1, 2, 3, 5, 10, 20, 30, 50, 100] },
+  { "id": "coral", "name": "Coral Court", "bets": [10, 20, 30, 50, 100, 200, 300, 500, 1000] },
+  { "id": "abyss", "name": "Gilded Abyss", "bets": [100, 200, 300, 500, 1000] }
+ ],
+ "fire": { "fireIntervalMs": 220, "maxBullets": 10, "maxBounces": 8, "bulletSpeed": 1500 },
+ "weapons": {
+  "cannon": { "cost": 1 },
+  "flare": { "cost": 3, "crit": [[3, 0.6], [7, 0.3], [10, 0.1]], "critChance": 0.02 },
+  "hammerjaw": { "cost": 6, "crit": [[3, 0.6], [7, 0.3], [10, 0.1]], "critChance": 0.03 },
+  "leviathan": { "cost": 15, "crit": [[3, 0.6], [7, 0.3], [10, 0.1]], "critChance": 0.04 }
+ },
+ "timing": { "bossEveryMs": 120000, "bossOnStageMs": 50000, "surgeEveryMs": 360000, "surgeCalmMs": 7000, "waveMs": 40000 },
+ "species": [
+  { "id": "N01", "name": "Penny Minnow", "size": "XS", "m": 2, "speed": 90, "school": [3, 6], "weight": 14 },
+  { "id": "N02", "name": "Stripe Dime", "size": "XS", "m": 3, "speed": 90, "school": [3, 5], "weight": 12 },
+  { "id": "N03", "name": "Sapphire Tang", "size": "S", "m": 4, "speed": 85, "school": [2, 4], "weight": 10 },
+  { "id": "N04", "name": "Rosewing Glider", "size": "S", "m": 5, "speed": 95, "school": [4, 8], "weight": 10 },
+  { "id": "N05", "name": "Crest Ponyfish", "size": "S", "m": 6, "speed": 60, "school": [2, 4], "weight": 8 },
+  { "id": "N06", "name": "Jade Shellkin", "size": "S", "m": 8, "speed": 70, "school": [2, 4], "weight": 7 },
+  { "id": "N07", "name": "Blush Octoling", "size": "S", "m": 9, "speed": 55, "school": [2, 4], "weight": 7 },
+  { "id": "N08a", "name": "Bell Jelly", "size": "S", "m": 10, "speed": 45, "school": [1, 3], "weight": 6 },
+  { "id": "N08b", "name": "Amethyst Bell", "size": "M", "m": 25, "speed": 40, "school": [1, 2], "weight": 3 },
+  { "id": "N09", "name": "Bloat Bauble", "size": "M", "m": 18, "speed": 40, "school": [1, 3], "weight": 4 },
+  { "id": "N10", "name": "Ruby Ribbonfish", "size": "M", "m": 15, "speed": 100, "school": [1, 3], "weight": 4 },
+  { "id": "N11", "name": "Lantern Banker", "size": "M", "m": 20, "speed": 80, "school": [1, 2], "weight": 3 },
+  { "id": "N12", "name": "Sunfan", "size": "M", "m": 12, "speed": 85, "school": [1, 2], "weight": 4 },
+  { "id": "N13", "name": "Jade Sawblade", "size": "L", "m": 35, "speed": 120, "school": [1, 1], "weight": 2 },
+  { "id": "N14", "name": "Velvet Manta", "size": "L", "m": 30, "speed": 90, "school": [1, 1], "weight": 2 },
+  { "id": "N15", "name": "Violet Reefshark", "size": "L", "m": 40, "speed": 130, "school": [1, 1], "weight": 2 },
+  { "id": "N16", "name": "Bullion Hammerhead", "size": "L", "m": 0, "table": [[50, 30], [65, 25], [80, 25], [100, 20]], "speed": 140, "school": [1, 1], "weight": 1.2 },
+  { "id": "S01", "name": "Gale Tortoise", "size": "L", "m": 0, "table": [[50, 40], [80, 30], [120, 20], [200, 10]], "feature": "vortex", "speed": 60, "school": [1, 1], "weight": 0.8 },
+  { "id": "S02", "name": "Storm Tortoise", "size": "L", "m": 0, "table": [[50, 40], [100, 30], [180, 20], [300, 10]], "feature": "lightning", "speed": 60, "school": [1, 1], "weight": 0.6 },
+  { "id": "S03", "name": "Fizzkelp Rockets", "size": "M", "m": 0, "table": [[50, 45], [80, 30], [150, 25]], "speed": 70, "school": [1, 1], "weight": 0.7 },
+  { "id": "S04", "name": "Clam Coffer", "size": "L", "m": 0, "table": [[50, 40], [100, 35], [150, 25]], "speed": 50, "school": [1, 1], "weight": 0.6 },
+  { "id": "S05", "name": "Diver's Hoard", "size": "L", "m": 0, "table": [[50, 40], [75, 30], [120, 20], [150, 10]], "speed": 50, "school": [1, 1], "weight": 0.6 },
+  { "id": "S06", "name": "Gilded Nautilus", "size": "M", "m": 0, "table": [[40, 50], [80, 35], [120, 15]], "speed": 45, "school": [1, 1], "weight": 0.6 },
+  { "id": "S07", "name": "Message Bottle Grotto", "size": "L", "m": 0, "table": [[2, 30], [10, 30], [30, 20], [100, 15], [300, 4.5], [1000, 0.5]], "feature": "bottlePick", "speed": 45, "school": [1, 1], "weight": 0.5 },
+  { "id": "S08", "name": "Compass Wheel", "size": "M", "m": 0, "table": [[40, 35], [80, 30], [120, 20], [160, 10], [200, 5]], "feature": "wheel", "speed": 55, "school": [1, 1], "weight": 0.5 },
+  { "id": "W01", "name": "Bubble Gatling", "size": "M", "m": 10, "feature": "gatling", "freeShots": [20, 100], "speed": 60, "school": [1, 1], "weight": 0.4 },
+  { "id": "W02", "name": "Auger Urchin", "size": "M", "m": 10, "feature": "drill", "drillTable": [[20, 50], [40, 35], [60, 15]], "speed": 60, "school": [1, 1], "weight": 0.4 },
+  { "id": "B01", "name": "Goldbeard", "size": "XL", "m": 0, "table": [[100, 40], [150, 30], [200, 20], [300, 10]], "boss": true, "speed": 50, "school": [1, 1], "weight": 0 }
+ ],
+ "pearlCascade": { "hitChance": 0.0006, "coin": [1, 5], "pearl": [50, 980], "cap": 1000 }
+}
