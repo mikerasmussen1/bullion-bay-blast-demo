@@ -1,0 +1,198 @@
+{
+ "B01": {
+  "axisDeg": 89.6,
+  "elong": 1.3,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "N01": {
+  "axisDeg": 5.0,
+  "elong": 3.18,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N02": {
+  "axisDeg": 5.7,
+  "elong": 2.4,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N03": {
+  "axisDeg": 4.7,
+  "elong": 2.67,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N04": {
+  "axisDeg": -46.3,
+  "elong": 1.11,
+  "upright": false,
+  "axisChecked": false,
+  "exempt": "glider wings span wider than the body"
+ },
+ "N05": {
+  "axisDeg": -12.5,
+  "elong": 1.73,
+  "upright": false,
+  "axisChecked": false,
+  "exempt": "crest makes the outline round"
+ },
+ "N06": {
+  "axisDeg": -3.9,
+  "elong": 1.5,
+  "upright": false,
+  "axisChecked": false,
+  "exempt": "turtle shell is round"
+ },
+ "N07": {
+  "axisDeg": -84.6,
+  "elong": 1.09,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "N08a": {
+  "axisDeg": 59.9,
+  "elong": 1.34,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "N08b": {
+  "axisDeg": -88.3,
+  "elong": 1.46,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "N09": {
+  "axisDeg": 2.7,
+  "elong": 1.24,
+  "upright": false,
+  "axisChecked": false,
+  "exempt": "puffer is round"
+ },
+ "N10": {
+  "axisDeg": 6.3,
+  "elong": 3.55,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N11": {
+  "axisDeg": 3.4,
+  "elong": 1.82,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N12": {
+  "axisDeg": 4.3,
+  "elong": 2.34,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N13": {
+  "axisDeg": 3.0,
+  "elong": 3.29,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N14": {
+  "axisDeg": -88.5,
+  "elong": 1.41,
+  "upright": false,
+  "axisChecked": false,
+  "exempt": "manta wings span wider than the body"
+ },
+ "N15": {
+  "axisDeg": 7.8,
+  "elong": 2.64,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "N16": {
+  "axisDeg": 0.2,
+  "elong": 2.73,
+  "upright": false,
+  "axisChecked": true,
+  "exempt": null
+ },
+ "S01": {
+  "axisDeg": -7.1,
+  "elong": 1.09,
+  "upright": false,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "S02": {
+  "axisDeg": 5.3,
+  "elong": 1.12,
+  "upright": false,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "S03": {
+  "axisDeg": -89.8,
+  "elong": 1.2,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "S04": {
+  "axisDeg": 0.1,
+  "elong": 1.1,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "S05": {
+  "axisDeg": 83.6,
+  "elong": 1.11,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "S06": {
+  "axisDeg": -90.0,
+  "elong": 2.01,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "S07": {
+  "axisDeg": -15.7,
+  "elong": 1.11,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "S08": {
+  "axisDeg": 0.0,
+  "elong": 1.68,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "W01": {
+  "axisDeg": 11.4,
+  "elong": 2.02,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ },
+ "W02": {
+  "axisDeg": 87.9,
+  "elong": 1.72,
+  "upright": true,
+  "axisChecked": false,
+  "exempt": null
+ }
+}
